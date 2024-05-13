@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    background-image: url(back-form.jpg);
+}
+section{
+    padding: 10px;
+    text-align: center;
+}
+.form{
+    margin-top: 20px;
+    text-align: left;
+    max-width: 700px;
+    margin: auto;
+}
+label{
+    text-size-adjust: 100px;
+    display: block;
+    margin-bottom: 30px;
+}

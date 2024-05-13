@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(homee.jpg);
+}
+header{
+    background-color: rgb(204, 110, 110);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    color: palevioletred;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    text-decoration: dashed ;
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    outline-color: rgb(201, 164, 201);
+    text-decoration: none;
+    color: #333;
+}
+section {
+    text-transform: initial;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-transform: capitalize;
+}
+h3 {
+    padding: 200px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
