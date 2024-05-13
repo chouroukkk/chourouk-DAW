@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(204, 110, 110);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    color: palevioletred;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    outline-color: rgb(201, 164, 201);
+    text-decoration: none;
+    color: #333;
+}
+section {
+    background-image: url(back-pro.jpg);
+    background-color: antiquewhite;
+    text-transform: initial;
+    padding: 100px 50px;
+    text-align: center;
+}
+footer{
+    background-color: #0c0c0cde;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 , h2 , h3 {
+    color: #0c010cf1;
+}
+.product {
+    margin-bottom: 30px;
+}
+.product img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #d66c4c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #555;
+}
+.img-home {
+    background-image: none;
+}
+.img-impératrice {
+width: 300px;
+padding-left: 0%;
+}
+.form-container{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color: rgb(207, 144, 155);
+    padding: 20px;
+}
